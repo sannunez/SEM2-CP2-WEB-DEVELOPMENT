@@ -6,7 +6,7 @@ export default function Header() {
             <header className="flex justify-between items-center  w-[100%] h-[50px] bg-[#070707] text-white">
                 <div className="flex items-center justify-between w-[100%] mx-[30px]">
                     <div>
-                        <h1>LOGO</h1>
+                        <img src="../../src/assets/images/SannunezLogo-provisorio.png" alt="LOGO" className="w-[48px] h-[35px]"/>
                     </div>
                     <nav className="flex gap-[2vw] items-center">
                         <ul className="flex gap-[2vw]">

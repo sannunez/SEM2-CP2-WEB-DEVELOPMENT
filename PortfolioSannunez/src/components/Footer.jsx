@@ -3,7 +3,7 @@ export default function Footer() {
         <>
             <footer className="flex items-center w-[100%] h-[50px] bg-[#070707] text-white">
                 <div className="flex justify-end items-center w-[100%] mx-[30px]">
-                    <h1>LOGO</h1>
+                <img src="../../src/assets/images/SannunezLogo-provisorio.png" alt="LOGO" className="w-[48px] h-[35px]"/>
                 </div>
             </footer>
         </>
