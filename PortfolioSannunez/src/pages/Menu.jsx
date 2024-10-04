@@ -1,7 +1,7 @@
 export default function Menu() {
     return ( 
     <>
-        <body className="flex flex-col justify-center items-center mw-[1024px] h-[100vh] my-[30px] mx-[auto]">
+        <body className="flex flex-col justify-center items-center mw-[1024px] h-[90vh] mx-[auto]">
             <div className="flex flex-col items-center">
                 <div className="flex h-[50px] items-center gap-[5px]">
                     <div className="flex flex-col w-[120w] gap-[3px] items-end pt-[23px]">

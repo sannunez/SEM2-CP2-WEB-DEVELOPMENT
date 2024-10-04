@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Header() {
     return ( 
         <>
-            <header className="flex justify-between items-center  w-[100%] h-[50px] bg-[#070707] text-white">
+            <header className="flex justify-between items-center  w-[100%] h-[5vh] bg-[#070707] text-white">
                 <div className="flex items-center justify-between w-[100%] mx-[30px]">
                     <div>
                         <img src="../../src/assets/images/SannunezLogo-provisorio.png" alt="LOGO" className="w-[48px] h-[35px]"/>
