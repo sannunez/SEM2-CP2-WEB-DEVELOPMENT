@@ -41,7 +41,7 @@ export default function Contact() {
                 <hr className="w-[85%] border-[4px] border-[#070707]"/>
                 <div className="flex flex-col items-start justify-start w-[80%] gap-10 pt-[25px]">
                     <div className="flex gap-2 items-center  w-[70%]">
-                        <a href="https://www.instagram.com/sannunez.sz/" target="_blank" className="flex items-center font-bold text-[18px] text-[#070707] grayscale brightness-0 hover:text-[#4A2499] transition duration(0.5s) gap-3 hover:grayscale-0 hover:brightness-100"><img src="../../src/assets/images/github.png" alt="Github" className="max-w-[50px]"/>sannunez</a>
+                        <a href="https://github.com/sannunez" target="_blank" className="flex items-center font-bold text-[18px] text-[#070707] grayscale brightness-0 hover:text-[#4A2499] transition duration(0.5s) gap-3 hover:grayscale-0 hover:brightness-100"><img src="../../src/assets/images/github.png" alt="Github" className="max-w-[50px]"/>sannunez</a>
                     </div>
                     <div className="flex gap-2 items-center justify-start w-[70%]">
                         <a href="https://www.instagram.com/sannunez.sz/" target="_blank" className="flex items-center font-bold text-[18px] text-[#4A2499] hover:text-[#070707]  hover:grayscale hover:brightness-0 transition duration(0.5s) gap-3"><img src="../../src/assets/images/instagram.png" alt="Instagram" className="max-w-[50px]"/>sannunez.sz</a>
@@ -54,7 +54,7 @@ export default function Contact() {
             <div className="w-[45%] h-[70%] relative flex justify-center items-center">
                 <img src="../../src/assets/images/form-deco.png" alt="form-decoration" className="absolute w-[100%] h-[100%] z-[-1]"/>
                 <div className="bg-[#d9d9d9] w-[80%] h-[85%] rounded-[15px] flex justify-center items-center">
-                    <form onSubmit={handleContact} className="flex flex-col w-[80%] gap-2">
+                    <form onSubmit={handleContact} className="flex flex-col w-[80%] max-h-[90%] gap-2">
                         <div className="flex flex-col">
                         <label htmlFor="name" className="font-bold">Name:</label>
                         <input 
@@ -82,7 +82,7 @@ export default function Contact() {
                         <textarea 
                             id="message"
                             cols = "30"
-                            rows='15'
+                            rows='10'
                             className="text-[12px] rounded-[5px]"
                             value= {message}
                             onChange = {e => setMessage(e.target.value)}
@@ -90,7 +90,7 @@ export default function Contact() {
                        </textarea>
                        </div>
 
-                       <button type="submit" className="bg-[#4A2499] hover:bg-[#070707] transition duration-[0.5s] mt-5 text-white p-2 rounded-[5px] font-bold">send</button>
+                       <button type="submit" className="bg-[#4A2499] hover:bg-[#070707] transition duration-[0.5s] mt-5 text-white p-2 mb-5 rounded-[5px] font-bold">send</button>
                     </form>
 
                 </div>
