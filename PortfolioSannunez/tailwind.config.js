@@ -20,6 +20,7 @@ export default {
     textUpCat: 'textUpCat 0.8s ease-in-out 1 forwards',
     textUpLearning: 'textUpLearning 0.8s ease-in-out 1 forwards',
     textDownBilingual: 'textDownBilingual 0.8s ease-in-out 1 forwards',
+    textChangeColor: 'textChangeColor 1s ease-in-out infinite alternate',
   },
   keyframes: {
     float: {
@@ -55,6 +56,11 @@ export default {
       '0%': { transform: 'translateY(0)', color: 'transparent'},
       '60%': { color: 'transparent'},
       '100%': { transform: 'translateY(85px)', color: 'black'},
+    },
+
+    textChangeColor: {
+      '0%': {color: '#070707'},
+      '100%': {color: '#4A2499'}
     },
   },
 },

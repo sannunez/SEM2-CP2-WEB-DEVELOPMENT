@@ -1,14 +1,14 @@
 export default function Menu() {
     return ( 
     <>
-        <body className="flex flex-col justify-center items-center mw-[1024px] h-[90vh] mx-[auto]">
+        <body className="flex flex-col justify-center items-center max-w-[1024px] h-[90vh] mx-[auto]">
             <div className="flex flex-col items-center">
                 <div className="flex h-[50px] items-center gap-[5px]">
                     <div className="flex flex-col w-[120w] gap-[3px] items-end pt-[23px]">
                         <div className="w-[80px] h-[6px] bg-[#070707]"></div>
                         <div className="w-[120px] h-[6px] bg-[#070707]"></div>
                     </div>
-                    <h1 className="font-koulen text-[72px]">SANNUNEZ&lt;3</h1>
+                    <h1 className="font-koulen text-[72px]">SANNUNEZ<span className="animate-textChangeColor">&lt;3</span></h1>
                     <div className="flex flex-col w-[100w] gap-[3px] pt-[23px]">
                         <div className="w-[80px] h-[6px] bg-[#070707]"></div>
                         <div className="w-[120px] h-[6px] bg-[#070707]"></div>

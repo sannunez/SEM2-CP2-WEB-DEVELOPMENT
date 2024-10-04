@@ -36,9 +36,9 @@ export default function Contact() {
     <>
         <body className="gap-10 max-w-[1024px] h-[90vh] mx-[auto] flex justify-center items-center">
             <div className='w-[45%] h-[70%] flex flex-col items-center'>
-                <h1 className="font-koulen text-[64px] pl-[25px]">SANNUNEZ&lt;3</h1>
-                <p className="text-[20px] font-bold w-[90%] text-center">Social Media:</p>
-                <hr className="w-[90%] border-[4px] border-[#070707]"/>
+                <h1 className="font-koulen text-[78px] pl-[25px]">SANNUNEZ&lt;3</h1>
+                <p className="text-[20px] font-bold w-[85%] text-center">Social Media:</p>
+                <hr className="w-[85%] border-[4px] border-[#070707]"/>
                 <div className="flex flex-col items-start justify-start w-[80%] gap-10 pt-[25px]">
                     <div className="flex gap-2 items-center  w-[70%]">
                         <a href="https://www.instagram.com/sannunez.sz/" target="_blank" className="flex items-center font-bold text-[18px] text-[#070707] grayscale brightness-0 hover:text-[#4A2499] transition duration(0.5s) gap-3 hover:grayscale-0 hover:brightness-100"><img src="../../src/assets/images/github.png" alt="Github" className="max-w-[50px]"/>sannunez</a>
