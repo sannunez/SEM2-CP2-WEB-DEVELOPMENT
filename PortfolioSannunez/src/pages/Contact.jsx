@@ -52,7 +52,7 @@ export default function Contact() {
                 </div>
             </div>
             <div className="w-[45%] h-[70%] relative flex justify-center items-center">
-                <img src="../../src/assets/images/form-deco.png" alt="form-decoration" className="absolute w-[100%] h-[100%] z-[-1]"/>
+                <img src="../../src/assets/images/form-deco.svg" alt="form-decoration" className="absolute w-[100%] h-[100%] z-[-1]"/>
                 <div className="bg-[#d9d9d9] w-[80%] h-[85%] rounded-[15px] flex justify-center items-center">
                     <form onSubmit={handleContact} className="flex flex-col w-[80%] max-h-[90%] gap-2">
                         <div className="flex flex-col">

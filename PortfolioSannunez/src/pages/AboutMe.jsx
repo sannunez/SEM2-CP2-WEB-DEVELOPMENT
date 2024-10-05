@@ -1,3 +1,5 @@
+import { SiCss3, SiHtml5, SiJavascript, SiPython } from "react-icons/si";
+
 export default function AboutMe() {
     return ( 
         <>
@@ -6,7 +8,7 @@ export default function AboutMe() {
             <div className="flex flex-col w-[50%] h-[75%]">
                 <div className="flex justify-between items-center w-[100%] h-[50%]">
                     <div className="w-[50%] h-[100%] relative flex items-center justify-center">
-                        <img src="../../src/assets/images/myphoto-deco.png" alt="form-decoration" className="absolute w-[100%] h-[100%]"/>
+                        <img src="../../src/assets/images/myphoto-deco.svg" alt="form-decoration" className="absolute w-[100%] h-[100%]"/>
                         <div className="h-[75%] w-[70%] mt-3 bg-[#4A2499] rounded-[15px]">
 
                         </div>
@@ -33,10 +35,10 @@ export default function AboutMe() {
                             <p className="font-bold">X</p>
                         </div>
                         <div className="flex gap-2 mt-2">
-                            <img src="../../src/assets/images/JavaScript.png" alt="JavaScript" />
-                            <img src="../../src/assets/images/CSS.png" alt="CSS" />
-                            <img src="../../src/assets/images/HTML.png" alt="HTML" />
-                            <img src="../../src/assets/images/python.png" alt="PYTHOn" />
+                            <SiJavascript className="size-[35px]"/>
+                            <SiCss3 className="size-[35px]"/>
+                            <SiHtml5 className="size-[35px]"/>
+                            <SiPython className="size-[35px]"/>
                         </div>
                     </div>
                    
