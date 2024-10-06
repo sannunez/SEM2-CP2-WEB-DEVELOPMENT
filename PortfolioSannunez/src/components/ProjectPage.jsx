@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import projects from '../data/projects.json';
-import ProjectContainer from "../components/ProjectContainer";
+import ProjectContainer from "./ProjectContainer";
 import airbnbImage from '../assets/images/airbnbclone.png'
 import femmersive from '../assets/images/F-EMMERSIVE.png'
 import previewAirbnbImage from '../assets/images/previewAirbnb.png';

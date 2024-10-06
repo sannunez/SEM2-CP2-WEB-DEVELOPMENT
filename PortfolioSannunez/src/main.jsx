@@ -7,7 +7,7 @@ import AboutMe from './pages/AboutMe.jsx'
 import Menu from './pages/Menu.jsx'
 import Contact from './pages/Contact.jsx'
 import MyProjects from './pages/MyProjects.jsx'
-import ProjectPage from './pages/ProjectPage.jsx'
+import ProjectPage from './components/ProjectPage.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
 
 

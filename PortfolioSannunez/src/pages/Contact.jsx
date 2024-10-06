@@ -10,6 +10,12 @@ export default function Contact() {
     const handleContact = (e) => {
         e.preventDefault()
 
+    console.log(`
+        Nome:${name}
+        E-mail:${email}
+        Mensagem:${message}
+        `)
+
         if(name === '' || email === '' || message === ''){
             alert("Fill all fields")
             return;
@@ -34,7 +40,7 @@ export default function Contact() {
 
     return ( 
     <>
-        <main className="max-lg:py-[150px] max-lg:w-[768px] max-md:flex-col max-md:gap-[50px] max-sm:flex-col max-sm:gap-[5px] max-w-[1024px] gap-10 mx-[auto] flex justify-center items-center overflow-auto py-[110px] my-[2%]">
+        <main className="font-alternates max-lg:py-[150px] max-lg:w-[768px] max-md:flex-col max-md:gap-[50px] max-sm:flex-col max-sm:gap-[5px] max-w-[1024px] gap-10 mx-[auto] flex justify-center items-center overflow-auto py-[110px] my-[2%]">
             <div className='max-lg:w-[380px] max-md:w-[425px] max-sm:w-[320px] w-[45%] h-[70%] flex flex-col items-center'>
                 <h1 className="max-lg:text-[64px] max-lg:pl-0 max-sm:text-[64px] max-sm:pl-0 font-koulen text-[78px] pl-[25px]">SANNUNEZ&lt;3</h1>
                 <p className="text-[20px] font-bold w-[85%] text-center">Social Media:</p>

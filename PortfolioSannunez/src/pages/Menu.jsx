@@ -1,10 +1,17 @@
+import darkMode from "../components/Header";
+import { useState } from "react";
+
+
 export default function Menu() {
+    const[darkIsActive, setDarkIsActive] = useState(false)
+      
+    const toggleDark = () =>{setDarkIsActive(!darkIsActive)};
     return ( 
         <>
-            <main className="flex flex-col justify-center items-center mx-[auto] py-[120px] my-[2%]">
+            <main className={`${darkIsActive ? 'bg-black' : 'bg-white'} flex flex-col justify-center items-center mx-[auto] py-[120px] my-[2%] font-alternates`}>
                 <div className="flex flex-col items-center">
                     <div className="flex h-[50px] items-center gap-[5px]">
-                        <div className="max-lg:w-[100px] max-md:w-[80px] max-sm:w-[60px] flex flex-col w-[120] gap-[3px] items-end pt-[23px]">
+                        <div className="max-lg:w-[100px] max-md:w-[80px] max-sm:w-[60px] flex flex-col w-[120w] gap-[3px] items-end pt-[23px]">
                             <div className="max-lg:w-[65px] max-lg:h-[5px] max-md:w-[55px] max-md:h-[5px] max-sm:w-[35px] max-sm:h-[4px] w-[80px] h-[6px] bg-[#070707]"></div>
                             <div className="max-lg:w-[100px] max-lg:h-[5px] max-md:w-[80px] max-md:h-[5px] max-sm:w-[60px] max-sm:h-[4px] max-sm:mb-[10px] w-[120px] h-[6px] bg-[#070707]"></div>
                         </div>

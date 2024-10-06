@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-export default function Header() {
+export default function darkMode() {
 
        const[darkIsActive, setDarkIsActive] = useState(false)
       
@@ -13,7 +13,7 @@ export default function Header() {
         <>
             <header className={`${darkIsActive
                 ? "bg-white" 
-                : "bg-[#070707]"} flex justify-between items-center  w-[100%] fixed top-0 bg-[#070707] text-white transition duration-[1s] z-20`}>
+                : "bg-[#070707]"} font-alternates flex justify-between items-center  w-[100%] fixed top-0 bg-[#070707] text-white transition duration-[1s] z-20`}>
                 <div className="max-md:mx-0 max-md:justify-around max-sm:mx-0 max-sm:justify-around flex items-center justify-between w-[100%] mx-[30px]">
                     <div>
                         <img src={darkIsActive
