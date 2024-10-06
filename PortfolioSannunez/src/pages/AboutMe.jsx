@@ -1,4 +1,4 @@
-import { SiCss3, SiEclipseide, SiHtml5, SiJavascript, SiPython, SiReact } from "react-icons/si";
+import { SiCss3, SiHtml5, SiJavascript, SiPython, SiReact } from "react-icons/si";
 
 export default function AboutMe() {
     return ( 
@@ -52,7 +52,7 @@ export default function AboutMe() {
                 </div>
                 <div className="w-[90%] m-[0_auto]">
                     <h1 className="max-md:ml-16 max-sm:ml-3 font-bold">checkout some of my artwork</h1>
-                    <div className="overflow-y-auto h-[70%]">
+                    <div className="overflow-y-scroll h-[70%]">
                         <div className="max-lg:grid-cols-[repeat(auto-fit,_100px)] max-lg:grid-rows-[150px_150px]  max-md:ml-3 max-md:grid-cols-[repeat(auto-fit,_110px)] max-md:grid-rows-[170px_170px] grid gap-4 grid-cols-[repeat(auto-fit,_130px)] grid-rows-[180px_180px]">
                             <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><img src="../../src/assets/images/dgrid-1.svg" alt="" className="w-[100%] h-[100%]"/></div>
                             <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><img src="../../src/assets/images/dgrid-2.svg" alt="" className="w-[100%] h-[100%]"/></div>
@@ -62,7 +62,7 @@ export default function AboutMe() {
                             <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><img src="../../src/assets/images/dgrid-6.svg" alt="" className="w-[100%] h-[100%]"/></div>
                         </div>
                     </div>
-                    <div className='flex items-center gap-2 p-[10px]'>
+                    <div className='max-lg:mr-0 max-md:mr-0 max-sm:mr-0 flex items-center gap-2 p-[10px] mr-8'>
                         <div className="flex flex-col w-[45%] items-end">
                             <div className="w-[70%] h-[5px] bg-[#4A2499]"></div>
                         </div>

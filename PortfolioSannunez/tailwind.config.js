@@ -23,6 +23,8 @@ export default {
    animation: {
     float: 'float 4s ease-in-out infinite alternate',
 
+    spinFooter: 'spinFooter 10s linear infinite',
+
     textUpArt: 'textUpArt 0.8s ease-in-out 1 forwards',
     textUpArtMobile: 'textUpArtMobile 0.8s ease-in-out 1 forwards',
     textUpArtTablet: 'textUpArtTablet 0.8s ease-in-out 1 forwards',
@@ -51,7 +53,12 @@ export default {
       '0%': { transform: 'translateY(0)' },
       '100%': { transform: 'translateY(-10px)' },
     },
-    
+
+    spinFooter :{
+      '0%': {transform: 'rotate(0deg)'},
+      '100%': {transform: 'rotate(360deg)'},
+    },
+
     textUpArt: {
       '0%': { transform: 'translateY(0)', color: 'transparent'},
       '60%': { color: 'transparent'},
@@ -155,5 +162,7 @@ export default {
   },
 },
 },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }

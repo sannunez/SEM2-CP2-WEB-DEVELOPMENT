@@ -7,6 +7,8 @@ import AboutMe from './pages/AboutMe.jsx'
 import Menu from './pages/Menu.jsx'
 import Contact from './pages/Contact.jsx'
 import MyProjects from './pages/MyProjects.jsx'
+import PageNotFound from './pages/PageNotFound.jsx'
+
 
 
 const router = createBrowserRouter([
@@ -17,7 +19,8 @@ const router = createBrowserRouter([
       {index: true, element: <Menu />},
       {path: '/MyProjects', element: <MyProjects />},
       {path: '/AboutMe', element: <AboutMe />},
-      {path: '/Contact', element: <Contact />}
+      {path: '/Contact', element: <Contact />},
+      { path: '*', element: <PageNotFound /> }
     ]
   }
 ])
