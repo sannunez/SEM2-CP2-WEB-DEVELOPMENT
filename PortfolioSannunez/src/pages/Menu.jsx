@@ -1,7 +1,7 @@
 export default function Menu() {
     return ( 
         <>
-            <main className="flex flex-col justify-center items-center mx-[auto] py-[120px]">
+            <main className="flex flex-col justify-center items-center mx-[auto] py-[120px] my-[2%]">
                 <div className="flex flex-col items-center">
                     <div className="flex h-[50px] items-center gap-[5px]">
                         <div className="max-lg:w-[100px] max-md:w-[80px] max-sm:w-[60px] flex flex-col w-[120] gap-[3px] items-end pt-[23px]">
