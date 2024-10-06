@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       { index: true, element: <Menu /> },
       { path: 'MyProjects', element: <MyProjects />, 
         children:[
-          { path: ':id', element: <ProjectPage /> } // Rota dinâmica como filha de MyProjects
+          { path: ':id', element: <ProjectPage /> },
       ]
       },
       { path: 'AboutMe', element: <AboutMe /> },

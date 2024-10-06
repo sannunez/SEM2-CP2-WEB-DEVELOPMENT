@@ -22,10 +22,10 @@ export default function Header() {
                     </div>
                     <nav className="flex gap-[2vw] items-center">
                         <ul className="flex gap-[2vw]">
-                            <li className="max-md:text-[12px] max-sm:text-[10px]"><NavLink to="/" className={({ isActive }) => isActive ? darkIsActive ? "text-[#38DE2A]" : "text-[#4A2499]" : darkIsActive ? "text-black hover:text-[#38DE2A]" : "text-white hover:text-[#4A2499]"}>menu</NavLink></li>
-                            <li className="max-md:text-[12px] max-sm:text-[10px]"><NavLink to="/MyProjects" className={({ isActive }) => isActive ? darkIsActive ? "text-[#38DE2A]" : "text-[#4A2499]" : darkIsActive ? "text-black hover:text-[#38DE2A]" : "text-white hover:text-[#4A2499]"}>my projects</NavLink></li>
-                            <li className="max-md:text-[12px] max-sm:text-[10px]"><NavLink to="/AboutMe" className={({ isActive }) => isActive ? darkIsActive ? "text-[#38DE2A]" : "text-[#4A2499]" : darkIsActive ? "text-black hover:text-[#38DE2A]" : "text-white hover:text-[#4A2499]"}>about me</NavLink></li>
-                            <li className="max-md:text-[12px] max-sm:text-[10px]"><NavLink to="/Contact" className={({ isActive }) => isActive ? darkIsActive ? "text-[#38DE2A]" : "text-[#4A2499]" : darkIsActive ? "text-black hover:text-[#38DE2A]" : "text-white hover:text-[#4A2499]"}>contact</NavLink></li>
+                            <li className="max-md:text-[12px] max-sm:text-[10px]"><NavLink to="/" className={({ isActive }) => isActive ? darkIsActive ? "text-[#38DE2A] pointer-events-none": "text-[#4A2499] pointer-events-none" : darkIsActive ? "text-black hover:text-[#38DE2A]" : "text-white hover:text-[#4A2499]"}>menu</NavLink></li>
+                            <li className="max-md:text-[12px] max-sm:text-[10px]"><NavLink to="/MyProjects" className={({ isActive }) => isActive ? darkIsActive ? "text-[#38DE2A] pointer-events-none" : "text-[#4A2499] pointer-events-none" : darkIsActive ? "text-black hover:text-[#38DE2A]" : "text-white hover:text-[#4A2499]"}>my projects</NavLink></li>
+                            <li className="max-md:text-[12px] max-sm:text-[10px]"><NavLink to="/AboutMe" className={({ isActive }) => isActive ? darkIsActive ? "text-[#38DE2A] pointer-events-none" : "text-[#4A2499] pointer-events-none" : darkIsActive ? "text-black hover:text-[#38DE2A]" : "text-white hover:text-[#4A2499]"}>about me</NavLink></li>
+                            <li className="max-md:text-[12px] max-sm:text-[10px]"><NavLink to="/Contact" className={({ isActive }) => isActive ? darkIsActive ? "text-[#38DE2A] pointer-events-none" : "text-[#4A2499] pointer-events-none" : darkIsActive ? "text-black hover:text-[#38DE2A]" : "text-white hover:text-[#4A2499]"}>contact</NavLink></li>
                         </ul>
                         <span className={`${darkIsActive 
                         ? "text-black"

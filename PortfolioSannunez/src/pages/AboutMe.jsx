@@ -9,7 +9,9 @@ export default function AboutMe() {
                 <div className="max-sm:gap-1 flex justify-between items-center w-[100%] h-[50%] gap-5">
                     <div className="h-[50%] flex items-center justify-center">
                         <div className="max-lg:h-[235px] max-lg:w-[195px] max-sm:h-[218px] max-sm:w-[180px] flex items-end justify-center h-[278px] w-[228px] bg-[url('../../src/assets/images/myphoto-deco.svg')] bg-cover bg-no-repeat bg-center">
-                            <div className="max-lg:h-[175px] max-lg:w-[130px] max-sm:h-[165px] max-sm:w-[130px] max-sm:m-5 h-[210px] w-[165px] mb-7 bg-[#4A2499] rounded-[15px]"></div>
+                            <div className="flex justify-center items-center max-lg:h-[175px] max-lg:w-[130px] max-sm:h-[165px] max-sm:w-[130px] max-sm:m-5 h-[210px] w-[165px] mb-7 bg-[#4A2499] rounded-[15px]">
+                                <img src="../src/assets/images/selfie.jpg" alt="selfie" className="rounded-[360px] border-solid border-[5px]"/>
+                            </div>
                         </div>
                     </div>
                     <div className="w-[70%]">

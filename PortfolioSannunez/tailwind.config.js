@@ -47,6 +47,8 @@ export default {
     textDownBilingualLarge: 'textDownBilingualLarge 0.8s ease-in-out 1 forwards',
 
     textChangeColor: 'textChangeColor 1s ease-in-out infinite alternate',
+
+    textUpcoming: 'textUpcoming 3s ease-in-out infinite alternate'
   },
   keyframes: {
     float: {
@@ -159,6 +161,11 @@ export default {
       '0%': {color: '#070707'},
       '100%': {color: '#4A2499'}
     },
+
+    textUpcoming:{
+      '0%':{color: 'gray'},
+      '100%':{color: 'black'}
+    }
   },
 },
 },

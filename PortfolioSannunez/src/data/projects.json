@@ -1,14 +1,18 @@
 [
     {
         "id": "airbnb-clone",
-        "titulo": "Airbnb clone page",
-        "descricao": "The proposal of this project was to reproduce a AirBnB page as simmilar as we(me and my team) could. It is visible that the differences are few, and it looks like a real page.",
-        "imagem": "imagem.png"
+        "titulo": "AIRBNB-CLONE PAGE:",
+        "descricao": "The proposal of this project was to reproduce a AirBnB page as simmilar as we(me and my team) could. It is visible that the differences are few, and it looks like a real and functional page in the minimum details. Use of semantic html, control of grids, divs, etc.",
+        "imagem": "airbnbclone.png",
+        "preview": "previewAirbnb.png",
+        "programs": "programAIRBNB.png"
     },
     {
         "id": "formula-emmersive",
-        "titulo": "Formula Emmersive Web-Site:",
-        "descricao": "This project was created due to a partnership between FIAP and Tech Mahindra. The proposal was to creat a plataform responsible to popularize the Formula E Sport, and competitions. Also one of the requests was to create-it with a gamiphying structure.",
-        "imagem": "imagem.png"
+        "titulo": "FORMULA EMMERSIVE WEB-SITE:",
+        "descricao": "This project was created due to a partnership between FIAP and Tech Mahindra. The proposal was to creat a plataform responsible to popularize the Formula E Sport, and competitions. Also one of the requests was to create-it with a gamiphying structure.\nIn this prototype there are functions like 'ClassList.add', 'Session Storage', conditionals, and other commom JavaScript skills.",
+        "imagem": "formula-emmersive.png",
+        "preview": "F-EMMERSIVE.png",
+        "programs": "programFE.png"
     }
 ]
