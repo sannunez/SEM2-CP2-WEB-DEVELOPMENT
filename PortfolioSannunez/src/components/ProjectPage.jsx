@@ -7,22 +7,26 @@ import previewAirbnbImage from '../assets/images/previewAirbnb.png';
 import previewFEmmersiveImage from '../assets/images/previewFE.png';
 import programsAirbnb from '../assets/images/programAIRBNB.png'
 import programsFE from '../assets/images/programFE.png'
-
+import oceanet from '../assets/images/oceanet.png'
+import previewOceanet from '../assets/images/oceanetPreview.png'
 
 const imageMap = {
     "airbnb-clone": airbnbImage,
     "formula-emmersive": femmersive,
+    'oceanet' : oceanet
 }
 
 
 const previewMap = {
     "airbnb-clone": previewAirbnbImage,
     "formula-emmersive": previewFEmmersiveImage,
+    'oceanet' : previewOceanet
 };
 
 const programMap = {
     "airbnb-clone": programsAirbnb,
     "formula-emmersive": programsFE,
+    'oceanet': programsFE
 }
 
 export default function ProjectPage() {

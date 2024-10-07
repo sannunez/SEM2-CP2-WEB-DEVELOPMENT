@@ -4,10 +4,12 @@ import projects from '../data/projects.json'
 import { useParams } from 'react-router-dom';
 import airbnbImage from '../assets/images/airbnbclone.png'
 import femmersive from '../assets/images/F-EMMERSIVE.png'
+import oceanet from '../assets/images/oceanet.png'
 
 const imageMap = {
     "airbnb-clone": airbnbImage,
-    "formula-emmersive": femmersive
+    "formula-emmersive": femmersive,
+    "oceanet" : oceanet
 }
 
 
@@ -34,7 +36,7 @@ function MyProjects() {
                                     {projects.map(projeto => (
                                         <li key={projeto.id}>
                                             <Link to={`${projeto.id}`}>
-                                            <button className='flex justify-center m-[5px_0_5px_0] p-[5px] bg-[#4A2499] rounded-[10px] hover:bg-[#7038e9] hover:transition hover:duration-[0.5s]'><img src={imageMap[projeto.id]} alt={projeto.titulo} className='w-[200px]'/></button>
+                                            <button className='flex justify-center m-[5px_0_5px_0] p-[5px] bg-[#4A2499] rounded-[10px] hover:bg-[#7038e9] hover:transition hover:duration-[0.5s] h-[35px] w-[200px] items-center'><img src={imageMap[projeto.id]} alt={projeto.titulo} className='w-[160px]'/></button>
                                             </Link>
                                         </li>
                                     ))}
@@ -46,8 +48,6 @@ function MyProjects() {
                                         <button className='w-[100%] h-[40px] flex justify-center m-[5px_0_5px_0] p-[5px] bg-[#222121] rounded-[10px] font-bold items-center animate-textUpcoming'>UPCOMING</button>
                                         <button className='w-[100%] h-[40px] flex justify-center m-[5px_0_5px_0] p-[5px] bg-[#222121] rounded-[10px] font-bold items-center animate-textUpcoming'>UPCOMING</button>
                                         <button className='w-[100%] h-[40px] flex justify-center m-[5px_0_5px_0] p-[5px] bg-[#222121] rounded-[10px] font-bold items-center animate-textUpcoming'>UPCOMING</button>
-                                        <button className='w-[100%] h-[40px] flex justify-center m-[5px_0_5px_0] p-[5px] bg-[#222121] rounded-[10px] font-bold items-center animate-textUpcoming'>UPCOMING</button>
-                      
                                     </li>
                                 </ul>
                             </nav>

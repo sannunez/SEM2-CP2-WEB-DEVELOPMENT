@@ -14,5 +14,13 @@
         "imagem": "formula-emmersive.png",
         "preview": "F-EMMERSIVE.png",
         "programs": "programFE.png"
+    },
+    {
+        "id": "oceanet",
+        "titulo": "OCEANET - WEB-SITE:",
+        "descricao": "O20, in partnership with the Blue Future project (FIAP), seeks innovative solutions using new technologies to promote the sustainable future of the oceans. With this in mind, we(me and my team) decided to develop a website prototype to present a hypothetical social network that will facilitate communication between ordinary citizens and those involved in preserving the health of the oceans, reducing trash scattered in coastal and oceanic regions.",
+        "imagem": "oceanet.png",
+        "preview": "oceanetPreview.png",
+        "programs": "programFE.png"
     }
 ]

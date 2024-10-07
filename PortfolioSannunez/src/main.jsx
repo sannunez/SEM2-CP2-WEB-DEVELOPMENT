@@ -25,9 +25,9 @@ const router = createBrowserRouter([
       },
       { path: 'AboutMe', element: <AboutMe /> },
       { path: 'Contact', element: <Contact /> },
-      { path: '*', element: <PageNotFound /> }
     ]
-  }
+  },
+  { path: '*', element: <PageNotFound /> }
 ]);
 createRoot(document.getElementById('root')).render(
   <StrictMode>
