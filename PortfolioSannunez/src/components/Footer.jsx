@@ -11,7 +11,7 @@ export default function Footer() {
                     <p className="font-bold">&</p>
                     <SiTailwindcss className="size-[25px]"/>
                 </div>
-                <img src="../src/assets/images/SannunezLogo-provisorio.png" alt="LOGO" className="max-sm:w-[38px] max-sm:h-[28px] w-[48px] h-[35px]"/>
+                <img src="src/assets/images/SannunezLogo-provisorio.png" alt="LOGO" className="max-sm:w-[38px] max-sm:h-[28px] w-[48px] h-[35px]"/>
                 </div>             
             </footer>
         </>
