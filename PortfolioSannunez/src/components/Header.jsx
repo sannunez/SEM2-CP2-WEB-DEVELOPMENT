@@ -15,10 +15,7 @@ export default function darkMode() {
                 ? "bg-white" 
                 : "bg-[#070707]"} font-alternates flex justify-between items-center  w-[100%] fixed top-0 bg-[#070707] text-white transition duration-[1s] z-20`}>
                 <div className="max-md:mx-0 max-md:justify-around max-sm:mx-0 max-sm:justify-around flex items-center justify-between w-[100%] mx-[30px]">
-                    <div>
-                        <img src={darkIsActive
-                        ? "../src/assets/images/SannunezLogo-provisorio-darkmode.png"
-                        : "../src/assets/images/SannunezLogo-provisorio.png"} alt="LOGO" className="max-sm:w-[38px] max-sm:h-[28px] w-[48px] h-[35px]"/>
+                    <div className="w-[45px] h-[35px] bg-[url('../src/assets/images/SannunezLogo-provisorio.png')] bg-cover bg-no-repeat bg-center">
                     </div>
                     <nav className="flex gap-[2vw] items-center">
                         <ul className="flex gap-[2vw]">

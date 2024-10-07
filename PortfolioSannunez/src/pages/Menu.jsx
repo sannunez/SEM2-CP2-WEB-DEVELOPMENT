@@ -49,7 +49,7 @@ export default function Menu() {
                     {/* MY CAT GRID */}
                     <div className="col-start-3 row-start-1 row-span-2 flex items-end justify-center pb-[15px]">
                         <div className="max-lg:w-[130px] max-lg:h-[130px] max-md:rounded-[15px] max-md:w-[110px] max-md:h-[110px] max-sm:rounded-[10px] max-sm:w-[80px] max-sm:h-[80px] z-10 animate-float flex justify-center items-center w-[95%] h-[75%] bg-[#D9D9D9] rounded-[15px] shadow-md">
-                            <div className="max-lg:w-[105px] max-lg:h-[105px] max-md:w-[80px] max-md:h-[80px] max-sm:w-[60px] max-sm:h-[60px] flex justify-center w-[130px] h-[130px] rounded-[10px] bg-[url('../src/assets/images/MYCAT.png')] bg-cover bg-[30%] brightness-50 hover:brightness-100 duration-[0.5s]">
+                            <div className="max-lg:w-[105px] max-lg:h-[105px] max-md:w-[80px] max-md:h-[80px] max-sm:w-[60px] max-sm:h-[60px] flex justify-center w-[130px] h-[130px] rounded-[10px] bg-[url('../src/assets/images/mycat.png')] bg-cover bg-[30%] brightness-50 hover:brightness-100 duration-[0.5s]">
                                 <p className='max-lg:text-[16px] max-md:text-[12px] max-md:hover:animate-textUpCatTablet max-sm:text-[10px] max-sm:hover:animate-textUpCatMobile text-[18px] text-center absolute text-transparent w-[100%] h-[100%] hover:animate-textUpCat'>my son</p> 
                             </div>
                         </div>
