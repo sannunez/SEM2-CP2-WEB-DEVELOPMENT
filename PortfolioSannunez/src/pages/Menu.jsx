@@ -30,7 +30,7 @@ export default function Menu() {
                     {/* ARTIST GRID */}
                     <div className="max-lg:pt-[30px] max-md:pt-[20px] max-sm:pt-[5px] col-start-1 row-start-1 row-span-3 flex items-center justify-center pt-[60px]">
                         <div className="max-lg:w-[145px] max-lg:h-[60%] max-md:h-[50%] max-md:w-[105px] max-sm:h-[48%] flex justify-end pr-[5px] w-[98%] h-[78%] relative">
-                        <img src="../src/assets/images/menu-img-decoration1.svg" alt="Menu Decoration" className="absolute bottom-0 left-0"/>
+                        <img src="../src/assets/images/menu-img-decoration1.png" alt="Menu Decoration" className="absolute bottom-0 left-0"/>
                             <div className="max-md:rounded-[10px] max-sm:rounded-[5px] z-10 animate-float flex justify-center items-center w-[72%] h-[84%] bg-[#D9D9D9] rounded-[15px] shadow-md">
                                 <div className="max-lg:w-[85px] max-lg:h-[165px] max-md:w-[55px] max-md:h-[120px] max-md:rounded-[10px] max-sm:w-[40px] max-sm:h-[80px] max-sm:rounded-[5px] flex justify-center w-[90px] h-[190px] rounded-[15px] bg-[url('../src/assets/images/nunez-art-1.png')] bg-cover bg-[30%] brightness-75 hover:brightness-100 duration-[0.5s]">
                                     <p className='max-lg:text-[16px] max-md:text-[12px] max-md:hover:animate-textUpArtTablet max-sm:text-[10px] max-sm:hover:animate-textUpArtMobile text-[18px] text-center text-transparent w-[100%] h-[100%] hover:animate-textUpArt'>artist</p> 
@@ -57,7 +57,7 @@ export default function Menu() {
                     {/* LEARNING GRID */}
                     <div className="max-md:pt-[10px] col-start-4 row-start-1 row-span-3 flex justify-center items-end pb-[40px]">
                         <div className="max-md:pt-[10px] flex justify-start items-center w-[84%] h-[74%] relative pt-[20px]">
-                            <img src="../src/assets/images/menu-img-decoration2.svg" alt="Menu Decoration" className="absolute right-0 max-sm:bottom-[55px] max-md:bottom-[100px] max-lg:bottom-[110px] bottom-[100px]"/>
+                            <img src="../src/assets/images/menu-img-decoration2.png" alt="Menu Decoration" className="absolute right-0 max-sm:bottom-[55px] max-md:bottom-[100px] max-lg:bottom-[110px] bottom-[100px]"/>
                             <div className="max-lg:h-[145px] max-md:h-[115px] max-md:rounded-[10px] max-sm:rounded-[10px] z-10 animate-float flex justify-center items-center w-[70%] h-[65%] bg-[#4A2499] rounded-[15px] shadow-md">
                                 <div className="max-lg:h-[115px] max-lg:w-[65px] max-md:h-[105px] max-md:w-[55px] max-sm:h-[75px] max-sm:w-[40px] flex justify-center w-[80%] h-[140px] rounded-[0px] bg-[url('../src/assets/images/learning-menu.png')] bg-cover bg-[30%] brightness-75 hover:brightness-100 duration-[0.5s]">
                                     <p className='max-lg:text-[16px] max-md:text-[12px] max-md:hover:animate-textUpLearningTablet max-sm:text-[8px] max-sm:hover:animate-textUpLearningMobile text-[18px] text-center text-transparent w-[100%] h-[100%] hover:animate-textUpLearning'>learning...</p> 
@@ -88,7 +88,7 @@ export default function Menu() {
                         <div className="max-lg:w-[100px] max-md:w-[80px] max-sm:w-[60px] flex flex-col w-[110px] items-end">
                             <div className="max-lg:w-[100px] max-md:w-[80px] max-sm:w-[60px] max-sm:h-[3px] w-[115px] h-[4px] bg-[#4A2499]"></div>
                         </div>
-                        <img src="../src/assets/images/purple-heart.svg" alt="PurpleHeart" className="max-lg:w-[25px] max-md:w-[25px] max-sm:w-[20px] w-[30px]"/>
+                        <img src="../src/assets/images/purple-heart.png" alt="PurpleHeart" className="max-lg:w-[25px] max-md:w-[25px] max-sm:w-[20px] w-[30px]"/>
                         <div className="max-lg:w-[100px] max-md:w-[80px]  max-sm:w-[60px] flex flex-col w-[110px]">
                             <div className="max-lg:w-[100px] max-md:w-[80px]  max-sm:w-[60px] max-sm:h-[3px] w-[115px] h-[4px] bg-[#4A2499]"></div>
                         </div>
