@@ -22,6 +22,11 @@ Acesso ⇒
   - O código pode passar por bruscas mudanças a ponto de descaracterizar a atual estética e/ou estrutura e uma nova ser implementada, uma vez que até mesmo a programação é arte e forma de se expressar, e eu como artista além de aprendiz em programação busco apresentar minha personalidade em tudo o que produzo.  
   - Pagina de projetos está em design temporário e será uma das primeiras a ser retrabalhada futuramente.  
 
+# ⌬ Proximos Updates: ⌬
+ - Implementação de DarkMode.
+ - Redesign de area de Projetos.
+ - Integração de futuros Projetos.
+ - Download de Currículo - PT-BR, EN.
 ---
 Inspiração para documento README:   
 - Ryan Brito Pereira Ramos, RM554497. /ryanbritodev
