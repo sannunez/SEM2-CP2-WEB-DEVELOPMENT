@@ -30,9 +30,9 @@ export default function Menu() {
                     {/* ARTIST GRID */}
                     <div className="max-lg:pt-[30px] max-md:pt-[20px] max-sm:pt-[5px] col-start-1 row-start-1 row-span-3 flex items-center justify-center pt-[60px]">
                         <div className="max-lg:w-[145px] max-lg:h-[60%] max-md:h-[50%] max-md:w-[105px] max-sm:h-[48%] flex justify-end pr-[5px] w-[98%] h-[78%] relative">
-                        <div><img src="../src/assets/images/menu-img-decoration1.png" alt="Menu Decoration" className="absolute bottom-0 left-0"/></div>
+                            <div><img src="../src/assets/images/menu-img-decoration1.png" alt="Menu Decoration" className="absolute bottom-0 left-0"/></div>
                             <div className="max-md:rounded-[10px] max-sm:rounded-[5px] z-10 animate-float flex justify-center items-center w-[72%] h-[84%] bg-[#D9D9D9] rounded-[15px] shadow-md">
-                                <div className="max-lg:w-[85px] max-lg:h-[165px] max-md:w-[55px] max-md:h-[120px] max-md:rounded-[10px] max-sm:w-[40px] max-sm:h-[80px] max-sm:rounded-[5px] flex justify-center w-[90px] h-[190px] rounded-[15px] bg-[url('../src/assets/images/nunez-art-1.png')] bg-cover bg-[30%] brightness-75 hover:brightness-100 duration-[0.5s]">
+                                <div className="max-lg:w-[85px] max-lg:h-[165px] max-md:w-[55px] max-md:h-[120px] max-md:rounded-[10px] max-sm:w-[40px] max-sm:h-[80px] max-sm:rounded-[5px] flex justify-center w-[90px] h-[190px] rounded-[15px] bg-[url('../src/assets/images/nunez-art-1.png')] bg-cover bg-center brightness-75 hover:brightness-100 duration-[0.5s]">
                                     <p className='max-lg:text-[16px] max-md:text-[12px] max-md:hover:animate-textUpArtTablet max-sm:text-[10px] max-sm:hover:animate-textUpArtMobile text-[18px] text-center text-transparent w-[100%] h-[100%] hover:animate-textUpArt'>artist</p> 
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ export default function Menu() {
                         <div className="max-lg:w-[100px] max-md:w-[80px] max-sm:w-[60px] flex flex-col w-[110px] items-end">
                             <div className="max-lg:w-[100px] max-md:w-[80px] max-sm:w-[60px] max-sm:h-[3px] w-[115px] h-[4px] bg-[#4A2499]"></div>
                         </div>
-                        <img src="../src/assets/images/purple-heart.png" alt="PurpleHeart" className="max-lg:w-[25px] max-md:w-[25px] max-sm:w-[20px] w-[30px]"/>
+                        <div className='max-lg:w-[25px] max-md:w-[25px] max-sm:w-[25px] w-[20px] h-[20px] bg-[url("../src/assets/images/purple-heart.svg")] bg-cover bg-no-repeat bg-center'></div>
                         <div className="max-lg:w-[100px] max-md:w-[80px]  max-sm:w-[60px] flex flex-col w-[110px]">
                             <div className="max-lg:w-[100px] max-md:w-[80px]  max-sm:w-[60px] max-sm:h-[3px] w-[115px] h-[4px] bg-[#4A2499]"></div>
                         </div>
