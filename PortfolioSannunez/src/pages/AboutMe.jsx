@@ -10,7 +10,7 @@ export default function AboutMe() {
                     <div className="h-[50%] flex items-center justify-center">
                         <div className="max-lg:h-[235px] max-lg:w-[195px] max-sm:h-[218px] max-sm:w-[180px] flex items-end justify-center h-[278px] w-[228px] bg-[url('../src/assets/images/myphoto-deco.svg')] bg-cover bg-no-repeat bg-center">
                             <div className="flex justify-center items-center max-lg:h-[175px] max-lg:w-[130px] max-sm:h-[165px] max-sm:w-[130px] max-sm:m-5 h-[210px] w-[165px] mb-7 bg-[#4A2499] rounded-[15px]">
-                                <img src="../src/assets/images/selfie.jpg" alt="selfie" className="rounded-[360px] border-solid border-[5px]"/>
+                               <div className="bg-[url('../src/assets/images/selfie.jpg')] rounded-[360px] border-solid border-[5px] h-[80%] w-[100%] bg-cover bg-n-repeat bg-center"></div>
                             </div>
                         </div>
                     </div>
@@ -56,19 +56,19 @@ export default function AboutMe() {
                     <h1 className="max-md:ml-16 max-sm:ml-3 font-bold">checkout some of my artwork</h1>
                     <div className="overflow-y-scroll h-[70%]">
                         <div className="max-lg:grid-cols-[repeat(auto-fit,_100px)] max-lg:grid-rows-[150px_150px]  max-md:ml-3 max-md:grid-cols-[repeat(auto-fit,_110px)] max-md:grid-rows-[170px_170px] grid gap-4 grid-cols-[repeat(auto-fit,_130px)] grid-rows-[180px_180px]">
-                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-1.png')] bg-cover bg-no-repeat bg-center"></div></div>
-                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-2.png')] bg-cover bg-no-repeat bg-center"></div></div>
-                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-3.png')] bg-cover bg-no-repeat bg-center"></div></div>
-                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-4.png')] bg-cover bg-no-repeat bg-center"></div></div>
-                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-5.png')] bg-cover bg-no-repeat bg-center"></div></div>
-                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-6.png')] bg-cover bg-no-repeat bg-center"></div></div>
+                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-1.svg')] bg-cover bg-no-repeat bg-center"></div></div>
+                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-2.svg')] bg-cover bg-no-repeat bg-center"></div></div>
+                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-3.svg')] bg-cover bg-no-repeat bg-center"></div></div>
+                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-4.svg')] bg-cover bg-no-repeat bg-center"></div></div>
+                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-5.svg')] bg-cover bg-no-repeat bg-center"></div></div>
+                            <div className="bg-[#d9d9d9] p-[5px] flex justify-center items-center"><div className="w-[100%] h-[100%] bg-[url('../src/assets/images/dgrid-6.svg')] bg-cover bg-no-repeat bg-center"></div></div>
                         </div>
                     </div>
                     <div className='max-lg:mr-0 max-md:mr-0 max-sm:mr-0 flex items-center gap-2 p-[10px] mr-8'>
                         <div className="flex flex-col w-[45%] items-end">
                             <div className="w-[70%] h-[5px] bg-[#4A2499]"></div>
                         </div>
-                        <img src="../src/assets/images/purple-heart.png" alt="PurpleHeart" className="max-lg:w-[25px] max-md:w-[25px] max-sm:w-[20px] w-[30px]"/>
+                        <div className='max-lg:w-[25px] max-md:w-[25px] max-sm:w-[25px] w-[20px] h-[20px] bg-[url("../src/assets/images/purple-heart.svg")] bg-cover bg-no-repeat bg-center'></div>
                         <div className="flex flex-col w-[45%]">
                             <div className="w-[70%] h-[5px] bg-[#4A2499]"></div>
                         </div>
