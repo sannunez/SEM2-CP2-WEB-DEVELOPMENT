@@ -47,17 +47,17 @@ export default function Contact() {
                 <hr className="w-[85%] border-[4px] border-[#070707]"/>
                 <div className="max-md:w-[85%] max-sm:w-[85%] flex flex-col items-start justify-start w-[80%] gap-10 pt-[25px]">
                     <div className="flex gap-2 items-center  w-[70%]">
-                        <a href="https://github.com/sannunez" target="_blank" className="max-lg:text-[16px] max-sm:text-[14px] flex items-center font-bold text-[18px] text-[#070707] grayscale brightness-0 hover:text-[#4A2499] transition duration(0.5s) gap-3 hover:grayscale-0 hover:brightness-100"><img src="src/assets/images/github.png" alt="Github" className="max-lg:w-[40px] max-sm:w-[35px] max-w-[50px]"/>sannunez</a>
+                        <a href="https://github.com/sannunez" target="_blank" className="max-lg:text-[16px] max-sm:text-[14px] flex items-center font-bold text-[18px] text-[#070707] grayscale brightness-0 hover:text-[#4A2499] transition duration(0.5s) gap-3 hover:grayscale-0 hover:brightness-100"><img src="../src/assets/images/github.png" alt="Github" className="max-lg:w-[40px] max-sm:w-[35px] max-w-[50px]"/>sannunez</a>
                     </div>
                     <div className="flex gap-2 items-center justify-start w-[70%]">
-                        <a href="https://www.instagram.com/sannunez.sz/" target="_blank" className="max-lg:text-[16px] max-sm:text-[14px] flex items-center font-bold text-[18px] text-[#4A2499] hover:text-[#070707]  hover:grayscale hover:brightness-0 transition duration(0.5s) gap-3"><img src="src/assets/images/instagram.png" alt="Instagram" className="max-lg:w-[40px]  max-sm:w-[35px]  max-w-[50px]"/>sannunez.sz</a>
+                        <a href="https://www.instagram.com/sannunez.sz/" target="_blank" className="max-lg:text-[16px] max-sm:text-[14px] flex items-center font-bold text-[18px] text-[#4A2499] hover:text-[#070707]  hover:grayscale hover:brightness-0 transition duration(0.5s) gap-3"><img src="../src/assets/images/instagram.png" alt="Instagram" className="max-lg:w-[40px]  max-sm:w-[35px]  max-w-[50px]"/>sannunez.sz</a>
                     </div>
                     <div className="flex gap-2 items-center justify-start">
-                        <a href="mailto:sftwr.gsantosnunes@gmail.com?subject=Assunto&body=Mensagem" target="_blank" className="max-lg:text-[16px] max-sm:text-[14px] flex items-center font-bold text-[18px] text-[#070707] grayscale brightness-0 hover:text-[#4A2499] transition duration(0.5s) gap-3 hover:grayscale-0 hover:brightness-100"><img src="src/assets/images/gmail.png" alt="gmail" className="max-lg:w-[40px] max-sm:w-[35px]  max-w-[50px]"/>sftwr.gsantosnunes@gmail.com</a>
+                        <a href="mailto:sftwr.gsantosnunes@gmail.com?subject=Assunto&body=Mensagem" target="_blank" className="max-lg:text-[16px] max-sm:text-[14px] flex items-center font-bold text-[18px] text-[#070707] grayscale brightness-0 hover:text-[#4A2499] transition duration(0.5s) gap-3 hover:grayscale-0 hover:brightness-100"><img src="../src/assets/images/gmail.png" alt="gmail" className="max-lg:w-[40px] max-sm:w-[35px]  max-w-[50px]"/>sftwr.gsantosnunes@gmail.com</a>
                     </div>
                 </div>
             </div>
-            <div className="max-lg:w-[380px] max-lg:h-[450px] max-md:w-[425px] max-md:h-[500px] max-sm:w-[320px] max-sm:h-[450px] w-[512px] h-[512px] relative flex justify-center items-center bg-[url('/src/assets/images/form-deco.svg')] bg-contain bg-no-repeat bg-center">
+            <div className="max-lg:w-[380px] max-lg:h-[450px] max-md:w-[425px] max-md:h-[500px] max-sm:w-[320px] max-sm:h-[450px] w-[512px] h-[512px] relative flex justify-center items-center bg-[url('../src/assets/images/form-deco.svg')] bg-contain bg-no-repeat bg-center">
                 <div className="max-lg:w-[75%] max-lg:h-[85%] max-md:w-[75%] max-md:h-[85%] max-sm:w-[80%] max-sm:h-[75%] w-[60%] h-[85%] bg-[#d9d9d9] rounded-[15px] flex justify-center items-center">
                     <form onSubmit={handleContact} className="flex flex-col w-[80%] max-h-[90%] gap-2">
                         <div className="flex flex-col">

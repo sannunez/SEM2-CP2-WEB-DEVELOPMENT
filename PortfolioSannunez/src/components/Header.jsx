@@ -17,8 +17,8 @@ export default function darkMode() {
                 <div className="max-md:mx-0 max-md:justify-around max-sm:mx-0 max-sm:justify-around flex items-center justify-between w-[100%] mx-[30px]">
                     <div>
                         <img src={darkIsActive
-                        ? "./src/assets/images/SannunezLogo-provisorio-darkmode.png"
-                        : "./src/assets/images/SannunezLogo-provisorio.png"} alt="LOGO" className="max-sm:w-[38px] max-sm:h-[28px] w-[48px] h-[35px]"/>
+                        ? "../src/assets/images/SannunezLogo-provisorio-darkmode.png"
+                        : "../src/assets/images/SannunezLogo-provisorio.png"} alt="LOGO" className="max-sm:w-[38px] max-sm:h-[28px] w-[48px] h-[35px]"/>
                     </div>
                     <nav className="flex gap-[2vw] items-center">
                         <ul className="flex gap-[2vw]">
