@@ -3,7 +3,7 @@ import { SiCss3, SiHtml5, SiJavascript, SiPython, SiReact } from "react-icons/si
 export default function AboutMe() {
     return ( 
         <>
-        <main className="max-lg:w-[768px] max-md:flex-col max-md:py-[80px] max-sm:flex-col max-sm:py-[80px] flex justify-between items-center max-w-[1024px] py-[120px] overflow-auto mx-[auto] my-[2%]">
+        <main className="font-alternates max-lg:w-[768px] max-md:flex-col max-md:py-[80px] max-sm:flex-col max-sm:py-[80px] flex justify-between items-center max-w-[1024px] py-[120px] overflow-auto mx-[auto] my-[2%]">
             {/* LEFT BLOCK */}
             <div className="max-md:w-[425px] max-md:h-[500px] max-sm:w-[320px] max-sm:h-[450px] flex flex-col w-[50%] h-[550px]">
                 <div className="max-sm:gap-1 flex justify-between items-center w-[100%] h-[50%] gap-5">
