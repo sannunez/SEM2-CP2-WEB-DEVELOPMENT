@@ -10,7 +10,7 @@ export default function projectContainer({titulo, descricao, preview, programs})
                 <img src={programs} alt="Program" className="my-[10px]"/>
                 </div>
             </div>
-            <div className="max-lg:ml-[10px] max-lg:w-[220px] max-lg:h-[340px] flex justify-center w-[300px] h-[470px] p-[10px] bg-[url('../../src/assets/images/preview-deco.svg')] bg-cover bg-no-repeat bg-center">
+            <div className="max-lg:ml-[10px] max-lg:w-[220px] max-lg:h-[340px] flex justify-center w-[300px] h-[470px] p-[10px] bg-[url('../src/assets/images/preview-deco.svg')] bg-cover bg-no-repeat bg-center">
                     <img src={preview} alt={titulo} className="w-[80%] h-[90%] mt-[20px] rounded-[15px]"/>
             </div>
         </div>

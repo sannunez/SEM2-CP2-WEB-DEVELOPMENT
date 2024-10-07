@@ -29,7 +29,7 @@ function MyProjects() {
         <>
             <div className="font-alternates max-lg:w-[768px] max-md:w-[425px] max-md:py-[80px] max-md:flex-col max-sm:w-[320px] max-sm:py-[80px] max-sm:flex-col max-w-[1024px] gap-10 mx-[auto] flex justify-center items-center overflow-auto py-[110px] my-[2%]">
                 <div className='max-md:w-[100%] max-md:items-center max-sm:w-[100%] w-[30%] h-[500px] relative flex flex-col gap-[30px]'>
-                    <div className='max-md:ml-0  max-sm:ml-[20px] flex ml-[35px] justify-center w-[280px] h-[100%] p-[10px] bg-[url("../../src/assets/images/myproj-deco.svg")] bg-cover bg-no-repeat bg-center'>
+                    <div className='max-md:ml-0  max-sm:ml-[20px] flex ml-[35px] justify-center w-[280px] h-[100%] p-[10px] bg-[url("../src/assets/images/myproj-deco.svg")] bg-cover bg-no-repeat bg-center'>
                         <div className='w-[85%] h-[90%] flex justify-center mt-[25px] rounded-[15px] bg-[#d9d9d9]'>
                             <nav>
                                 <ul>
